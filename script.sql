@@ -13,3 +13,10 @@ ALTER COLUMN description SET NOT NULL;
 
 ALTER TABLE parts
 ADD PRIMARY KEY(id);
+
+-- reorder_options table
+ALTER TABLE reorder_options
+ALTER COLUMN price_usd SET NOT NULL;
+
+ALTER TABLE reorder_options
+ALTER COLUMN quantity SET NOT NULL;
