@@ -14,6 +14,12 @@ ALTER COLUMN description SET NOT NULL;
 ALTER TABLE parts
 ADD PRIMARY KEY(id);
 
+ALTER TABLE parts
+ADD FOREIGN KEY(manufacturer_id) REFERENCES manufacturers(id);
+
+ALTER TABLE parts
+ALTER COLUMN manufacturer_id SET NOT NULL;
+
 -- reorder_options table
 ALTER TABLE reorder_options
 ALTER COLUMN price_usd SET NOT NULL;
