@@ -40,3 +40,9 @@ ADD CHECK (qty > 0);
 
 ALTER TABLE locations
 ADD UNIQUE(part_id, location);
+
+ALTER TABLE locations
+ADD FOREIGN KEY(part_id) REFERENCES parts(id);
+
+ALTER TABLE locations
+ALTER COLUMN part_id SET NOT NULL;
