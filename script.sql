@@ -23,3 +23,7 @@ ALTER COLUMN quantity SET NOT NULL;
 
 ALTER TABLE reorder_options
 ADD CHECK (price_usd > 0 AND quantity > 0);
+
+ALTER TABLE reorder_options
+ADD CHECK ((price_usd/quantity) > 0.02
+          AND (price_usd/quantity) < 25.00);
