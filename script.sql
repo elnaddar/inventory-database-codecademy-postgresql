@@ -37,3 +37,6 @@ ALTER COLUMN part_id SET NOT NULL;
 -- locations table
 ALTER TABLE locations
 ADD CHECK (qty > 0);
+
+ALTER TABLE locations
+ADD UNIQUE(part_id, location);
