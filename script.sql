@@ -1,0 +1,5 @@
+ALTER TABLE parts
+ADD UNIQUE(code);
+
+ALTER TABLE parts
+ALTER COLUMN code SET NOT NULL;
