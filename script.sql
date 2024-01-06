@@ -33,3 +33,7 @@ ADD FOREIGN KEY (part_id) REFERENCES parts(id);
 
 ALTER TABLE reorder_options
 ALTER COLUMN part_id SET NOT NULL;
+
+-- locations table
+ALTER TABLE locations
+ADD CHECK (qty > 0);
