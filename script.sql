@@ -10,3 +10,6 @@ WHERE description IS NULL;
 
 ALTER TABLE parts
 ALTER COLUMN description SET NOT NULL;
+
+ALTER TABLE parts
+ADD PRIMARY KEY(id);
