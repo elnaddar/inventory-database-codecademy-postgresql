@@ -46,3 +46,6 @@ ADD FOREIGN KEY(part_id) REFERENCES parts(id);
 
 ALTER TABLE locations
 ALTER COLUMN part_id SET NOT NULL;
+
+ALTER TABLE locations
+ADD PRIMARY KEY(id);
