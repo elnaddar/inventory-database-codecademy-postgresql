@@ -27,3 +27,9 @@ ADD CHECK (price_usd > 0 AND quantity > 0);
 ALTER TABLE reorder_options
 ADD CHECK ((price_usd/quantity) > 0.02
           AND (price_usd/quantity) < 25.00);
+
+ALTER TABLE reorder_options
+ADD FOREIGN KEY (part_id) REFERENCES parts(id);
+
+ALTER TABLE reorder_options
+ALTER COLUMN part_id SET NOT NULL;
