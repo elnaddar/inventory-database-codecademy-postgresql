@@ -1,0 +1,55 @@
+id, description, code, manufacturer_id
+0, 2-color LED, V1-131, 8
+1, Passive Buzzer, V1-006, 3
+2, 2-color LED, V1-011, 8
+3, , V1-031, 4
+4, Vibration switch, V1-002, 7
+5, Photo resistor, V1-018, 5
+6, Key switch, V1-004, 3
+7, Tilt switch, V1-020, 7
+8, Full-color LED SMD modules, V1-009, 8
+9, , V1-005, 6
+10, 3-color LED, V1-016, 5
+11, Mercury optical, V1-017, 5
+12, 2-color LED 3MM, V1-029, 4
+13, Active buzzer, V1-012, 7
+14, Temperature sensor, V1-013, 3
+15, Automatic LED, V1-034, 6
+16, Mini magnetic reed modules, V1-021, 6
+17, , V1-003, 2
+18, Infrared sensor receiver, V1-022, 1
+19, , V1-035, 3
+20, 5V 2-Channel relay, V1-027, 10
+21, Rotary encoder, V1-040, 3
+22, Optical encoder, V1-010, 9
+23, Optical sensor, V1-039, 6
+24, , V1-025, 10
+25, Obstacle avoidance sensor, V1-032, 4
+26, Voltage monitor, V1-033, 2
+27, Microphone sound sensor, V1-038, 3
+28, Laser sensor, V1-008, 3
+29, 5V relay, V1-019, 6
+30, Temperature sensor, V1-001, 10
+31, , V1-028, 7
+32, Linear magnetic hall sensors, V1-024, 6
+33, Flame sensor, V1-026, 4
+34, Sensitive microphone sensor, V1-037, 4
+35, Temperature and humidity sensor, V1-015, 1
+36, XY-axis joystick, V1-023, 4
+37, Metal touch sensor, V1-036, 3
+38, Voltage sensor, KR-12, 5
+39, MQ2 sensor, MQ2, 4
+40, MQ5 sensor, MQ5, 3
+41, MQ7 sensor, MQ7, 1
+42, Temperature sensor, DS18B20, 6
+43, Temperature humidity sensor, DHT11, 2
+44, Flame detection sensor, KR-0012, 5
+45, Water level sensor module, KR-021, 8
+46, Digital touch sensor module, KR-0212, 1
+47, Vibration sensor module, KR-0991, 1
+48, Sound sensor module, KR-2131, 1
+49, Photosensitive sensor module, KR-0192, 8
+50, Passive buzzer module, KR-877, 4
+51, Digital air pressure sensor , BMP180, 6
+52, Infrared sensor module, HC-SR501, 2
+53, Two-way relay module, KR-002, 2
